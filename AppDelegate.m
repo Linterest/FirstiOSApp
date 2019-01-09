@@ -31,3 +31,10 @@ didFInishLaunchingWithOptions:(NSDictionary *)launchOptions
 }
 
 @end
+
+/*
+此处定义UIApplication。上面定义的所有方法都是应用程序UI调动和不包含任何用户定义的方法。
+UIWindow对象被分配用来保存应用程序分配对象。
+UIController作为窗口初始视图控制器
+调用makeKeyAndVisible能使窗口可见
+*/
